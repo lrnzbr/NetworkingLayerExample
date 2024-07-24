@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,18 @@
 		EB1B54882C5076BE00509CB0 /* NetworkingLayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingLayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB1B54A42C5094E900509CB0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Networking.swift,
+			);
+			target = EB1B547D2C5076BD00509CB0 /* NetworkingLayerExampleTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB1B546F2C5076BC00509CB0 /* NetworkingLayerExample */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetworkingLayerExample; sourceTree = "<group>"; };
+		EB1B546F2C5076BC00509CB0 /* NetworkingLayerExample */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (EB1B54A42C5094E900509CB0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NetworkingLayerExample; sourceTree = "<group>"; };
 		EB1B54812C5076BD00509CB0 /* NetworkingLayerExampleTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetworkingLayerExampleTests; sourceTree = "<group>"; };
 		EB1B548B2C5076BE00509CB0 /* NetworkingLayerExampleUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetworkingLayerExampleUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
